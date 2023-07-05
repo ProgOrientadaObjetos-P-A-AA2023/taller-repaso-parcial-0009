@@ -7,10 +7,7 @@ package paquete003;
 import java.util.ArrayList;
 import paquete001.Persona;
 import paquete004.Pago;
-import paquete004.PagoAguaPotable;
-import paquete004.PagoLuzElectrica;
-import paquete004.PagoPredial;
-import paquete004.PagoTelefonoConvencional;
+
 
 /**
  *
@@ -56,3 +53,5 @@ public class BilleteraPagos {
     }
 
 }
+
+
