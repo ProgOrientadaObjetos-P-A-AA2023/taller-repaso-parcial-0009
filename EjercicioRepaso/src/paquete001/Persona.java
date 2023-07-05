@@ -2,8 +2,8 @@
 package paquete001;
 import paquete002.Ciudad;
 
-public class Persona {
 
+public class Persona {
     private String nombre;
     private String apellido;
     private int edad;
