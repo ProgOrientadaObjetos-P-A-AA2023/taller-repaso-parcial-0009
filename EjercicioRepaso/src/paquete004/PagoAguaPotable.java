@@ -11,6 +11,7 @@ import paquete001.Persona;
  * @author reroes
  */
 public class PagoAguaPotable {
+    
     public double calcularPago(String tipo){
         double pago = 0;
         if(tipo.equals("comercial")){

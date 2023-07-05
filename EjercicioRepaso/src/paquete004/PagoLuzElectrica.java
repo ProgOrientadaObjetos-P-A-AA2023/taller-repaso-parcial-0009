@@ -13,6 +13,7 @@ import paquete001.Persona;
 public class PagoLuzElectrica {
 
     public double calcularPago() {
+        
         double pago = 0;
         double tarifaBase = 10.20;
         double kilovatiosConsumidos = 80;

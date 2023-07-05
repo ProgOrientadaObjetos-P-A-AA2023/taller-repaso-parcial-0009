@@ -9,5 +9,12 @@ package paquete002;
  * @author reroes
  */
 public class Ciudad {
+
     String nombreCiudad;
+
+    public Ciudad(String n) {
+        nombreCiudad = n;
+    }
+    
+    
 }
