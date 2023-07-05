@@ -11,12 +11,25 @@ import paquete001.Persona;
  * @author reroes
  */
 public class PagoTelefonoConvencional {
-    
-    public double calcularPago(){
-        double tarifa = 6.20;
-        double minutosConsumidos = 100;
-        double costoMinuto = 0.2;
+
+    private double tarifa;
+    private double minutosConsumidos;
+    private double costoMinuto;
+    private double pago;
+
+    public PagoTelefonoConvencional(double tarif, double mConsumidos, double cConsumido) {
+        tarifa = tarif;
+        minutosConsumidos = mConsumidos;
+        costoMinuto = cConsumido;
+    }
+
+    public void calcularPago() {
+
         double pago = tarifa + (minutosConsumidos * costoMinuto);
+
+    }
+
+    public double obtenerPago() {
         return pago;
     }
 }
